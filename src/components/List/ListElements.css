@@ -1,0 +1,48 @@
+#userwrapper {
+  width: 100%;
+  margin: 5px 0 5px 0;
+}
+
+#user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+}
+
+#usericon {
+  border-radius: 100%;
+  width: 40px;
+  height: 35px;
+  padding: 10px;
+  margin: 0 10px 0 10px;
+}
+
+#userdetails {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 70%;
+  margin: 0 10px 0 10px;
+}
+
+
+#userdetail {
+  display: flex;
+  flex-direction: row;
+}
+
+#userdescription,#useremail {
+  color: gray;
+}
+
+#userdescription, #username {
+  text-transform: capitalize;
+}
+#username {
+  font-weight: 500;
+  
+}
+#usercheckbox{
+  width: 20%;
+}
